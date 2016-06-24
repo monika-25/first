@@ -1,0 +1,183 @@
+body{
+  width:100%;
+  margin:auto;
+  height:700px;
+  font-family: Open Sans;
+}
+.container{
+  width:960px;
+  margin:auto;
+}
+.header{
+  width:100%;
+  top:0;
+  position:fixed;
+  background-color: white;
+  z-index:9999;
+}
+.logo{
+  float:left;
+  font-family:"Helvetica";
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+li{
+  list-style: none;
+  float:left;
+  margin-left: 15px;
+  padding:15px;
+  color:black;
+}
+.nav{
+  float:right;
+}
+p{
+  padding-top: 20px;
+}
+
+#content {
+	width: 290px;
+	float: left;
+	padding: 2px 15px;
+  margin-left: 200px;
+}
+
+#middle {
+	width: 294px;
+	float: left;
+	padding: 2px 15px;
+	margin: 0px 5px 5px 5px;
+
+}
+
+#sidebar {
+	width: 270px;
+	padding: 2px 15px;
+	float: left;
+}
+footer {
+	clear: both;
+  height:60px;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background:#333333;;
+  margin-top: 40px;
+  }
+
+}
+.col_12
+{
+  background-color: #6396bc;
+  height: 50px;
+}
+.slider{
+  margin-top: 20px;
+}
+
+.slider-img {
+  height:100%;
+  width: 25%;
+  float:left;
+  position:relative;
+}
+
+.slide-item-1 {
+  background: url('captiva-beach-captiva_54_990x660_201404211817.jpg');
+  background-size: cover;
+}
+.slide-item-2 {
+  background: url('2163147_27_z.jpg');
+  background-size: cover;
+}
+.slide-item-3 {
+  background: url('PhoenixMarketCityChennai_Velachery_0.jpg');
+  background-size: cover;
+}
+.slide-item-4{
+  background: url('kapaleshwar-temple_chennai_big.jpg');
+  background-size: cover;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: 0%; }
+}
+.backdrop {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+div#slider { overflow: hidden;height: 100%;
+width: 100%;}
+div#slider figure {
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  height: 100%;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: grey;
+}
+.wrap h2{
+  padding-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.col_12 a{
+  float: right;
+  margin-right: 10px;
+  color: #b2b2a8;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+footer a{
+  color:#b2b2a8;
+  text-align: center;
+  padding-left: 20px;
+  margin-top:15px;
+  float: left;
+}
+footer p{
+  color:#b2b2a8;;
+  bottom:0;
+}
+.col_12 ul
+{
+  color:#b2b2a8;
+}
+.content p{
+  margin-top: 70px;
+}
+.image1 {
+  width:260px;
+}
+.image2{
+  width:260px;
+}
+.image3{
+  width:260px;
+}
+.complete{
+  margin-top: 10px;
+}
