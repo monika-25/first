@@ -1,0 +1,13 @@
+.container_12
+{
+  background: red;
+}
+nav li{
+  display:inline;
+}
+aside{
+background-color: green;
+}
+.primary{
+  background-color: grey;
+}

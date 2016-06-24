@@ -86,19 +86,19 @@ footer {
 }
 
 .slide-item-1 {
-  background: url('captiva-beach-captiva_54_990x660_201404211817.jpg');
+  background: url('../images/captiva-beach-captiva_54_990x660_201404211817.jpg');
   background-size: cover;
 }
 .slide-item-2 {
-  background: url('2163147_27_z.jpg');
+  background: url('../images/2163147_27_z.jpg');
   background-size: cover;
 }
 .slide-item-3 {
-  background: url('PhoenixMarketCityChennai_Velachery_0.jpg');
+  background: url('../images/PhoenixMarketCityChennai_Velachery_0.jpg');
   background-size: cover;
 }
 .slide-item-4{
-  background: url('kapaleshwar-temple_chennai_big.jpg');
+  background: url('../images/kapaleshwar-temple_chennai_big.jpg');
   background-size: cover;
 }
 @keyframes slidy {
