@@ -169,15 +169,6 @@ footer p{
 .content p{
   margin-top: 70px;
 }
-.image1 {
-  width:260px;
-}
-.image2{
-  width:260px;
-}
-.image3{
-  width:260px;
-}
-.complete{
-  margin-top: 10px;
+.image1,.image2,.image3{
+  width: 260px;
 }
